@@ -8,6 +8,6 @@ function insert_Row() {
 	let td2 = document.createElement("td");
 	td2.textContent = "New Cell2";
 	tr.appendChild(td2);
-	table.insertBefore(tr,table.rows[0]);
+	table.insertBefore(tr,table.firstElementChild);
   
 }
